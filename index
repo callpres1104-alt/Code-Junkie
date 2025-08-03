@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Literary Pub</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#222222" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Literary Pub</h1>
+    <p>by Author Name</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sample Chapter</h2>
+      <p>This is a preview. Purchase to unlock the full book!</p>
+      <a href="https://square.link/u/YOUR_SQUARE_LINK?redirect_url=https://callpres1104-alt.github.io/literary-pub/unlocked.html" class="buy-btn">Buy on Square</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Author Name</p>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
